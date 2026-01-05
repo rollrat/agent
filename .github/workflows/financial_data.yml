@@ -29,4 +29,6 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: financial-data
-          path: financial_data.csv
+          path: |
+            financial_data.csv
+            stock_summary.csv
